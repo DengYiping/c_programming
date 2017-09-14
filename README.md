@@ -89,4 +89,4 @@ In the first example above, the integer 3 is converted to float and the calculat
 ## printf
  - `%d`, `%f`, `%s`, `%o`, `%x`, `%p`, `%c` means decimal, floating point, string(char*) octat, hex, pointer, charactor
  - `%9.6f` means up to 6 digit after decimal point, a dot, and 2 digit before the dot
-
+ - 
