@@ -1,8 +1,7 @@
-# Programming in C
+#Programming in C
 
 ## Class Site
-
-[site!](http://minds.jacobs-university.de/teaching/ProgCFall2017)
+[site](http://minds.jacobs-university.de/teaching/ProgCFall2017)
 
 ## Grading Scheme
 
@@ -29,4 +28,13 @@ Editor --> Source Code --> Compiler --> Object Code  --\/
 
 Running Program <-- Operating System <-- Executable Code <-- Linker(with libraries)
 
+## Basic Data Types of C
 
+ | Data type | C identifier |
+ | --------- | ---- |
+ | Character | char |
+ | Integer number | int |
+ | Floating point number | float |
+ | Double precision number | double |
+ | No type | void |
+ 
