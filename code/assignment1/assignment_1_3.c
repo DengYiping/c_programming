@@ -1,3 +1,9 @@
+/*
+	JTSK-320111
+	assignment_1_3.c
+	Yiping Deng
+	y.deng@jacobs-university.de
+*/
 #include <stdio.h>
 int main() {
     double result; /* The result of the division */

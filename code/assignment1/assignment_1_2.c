@@ -1,3 +1,9 @@
+/*
+	JTSK-320111
+	assignment_1_2.c
+	Yiping Deng
+	y.deng@jacobs-university.de
+*/
 #include <stdio.h>
 int main() {
     int answer; /* The result of our calculation */

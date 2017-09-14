@@ -1,3 +1,9 @@
+/*
+	JTSK-320111
+	assignment_1_1.c
+	Yiping Deng
+	y.deng@jacobs-university.de
+*/
 #include <stdio.h>
 int main() {
     float answer; /* The result of our calculation */
