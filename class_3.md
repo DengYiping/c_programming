@@ -65,4 +65,21 @@ switch (expression){
 }
 ```
 if the break is not inserted, it will fall through.
-
+## iteration for and while loop
+while statement:
+```
+while(condition){
+    statement;
+}
+```
+for loop
+```
+for(int i = 0; i < len; ++i){
+    statement;
+}
+```
+do while statement
+```
+do{
+    statement;
+}while(condition);
