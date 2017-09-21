@@ -21,7 +21,7 @@ a = (int) (f1 * f2);
 ## Prefix and Postfix
  - ++a, when evaluated, is not increased.
 
-##sizeof operator
+## sizeof operator
 ```
 int a;
 printf("size int %lu\n", sizeof(a));
@@ -41,4 +41,28 @@ A boolean variable can assume only two logic values: true or false.
  - < smaller
  - >= greater or equal
  - <= smaller or equal
+a boolean can be converted to a int, and a int can be converted to a bool
+## if ... else branch
+ - if()
+ - if() else
+ - if() else if() else if() else
+## switch statement
+switch only applies to int value( char is considered a int)
+
+```
+switch (expression){
+    case c1:
+        statement;
+        break;
+    case c2:
+        statement;
+        break;
+    case c3:
+        statement;
+        break;
+    default:
+        statement;
+}
+```
+if the break is not inserted, it will fall through.
 
