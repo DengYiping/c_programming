@@ -83,3 +83,12 @@ do while statement
 do{
     statement;
 }while(condition);
+```
+# Array in C
+declaration is simple, just `int array[50];`
+access the array is also simple, just `array[1] = array[2]l`
+higher level declaration: 
+```
+int first_array[] = {1, 2, ,3, 4};
+int second_array[12];
+```
