@@ -30,5 +30,15 @@ printf("size double %lu\n", sizeof(double));
 ```
 
 Compile-time operator will not work for dynamically allocated memory.
-## boolean
+## boolean and relational operators
 A boolean variable can assume only two logic values: true or false. 
+ - && for and operation
+ - || for or operation
+ - ! for not operation
+ - == equality test
+ - != inequality test
+ - > greater
+ - < smaller
+ - >= greater or equal
+ - <= smaller or equal
+
