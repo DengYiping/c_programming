@@ -13,19 +13,24 @@ int main(){
     char cps[100];
     char result[200];
     
+    //initialize array since we are
+    //not allowed to use malloc
     fgets(s1, sizeof(s1), stdin);
     fgets(s2, sizeof(s2), stdin);
 
     printf("the length of s1: %d\n", (int) strlen(s1));
     printf("the length of s2: %d\n", (int) strlen(s2));
 
+    //first copy s1, then concate s2 to result
     strcpy(result, s1);
     strcat(result, s2);
     printf("the concated string is: %s\n", result);
 
+    //simply copy the string
     strcpy(cps, s1);
     printf("the copied string is: %s\n", cps);
 
+    //compare the result
     int cmp_result = strcmp(s1, s2);
     if(cmp_result == 0)
        printf("the result is %d, menas it is the same\n", cmp_result);
@@ -36,6 +41,7 @@ int main(){
     char c;
     fgets(buf, sizeof(buf), stdin);
     sscanf(buf, "%c", &c); 
+    //check if there is a match
     char* chr_result = strchr(s1, c);
     if(chr_result == NULL)
         printf("not found\n");
