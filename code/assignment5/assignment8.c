@@ -6,7 +6,7 @@
 */
 #include <stdio.h>
 
-void printMat(int n, int mat[][n]){
+void printMat(int n, int mat[][50]){
     printf("the matrix you entered: \n");
 
     //double for loop to iterate
@@ -21,7 +21,7 @@ void printMat(int n, int mat[][n]){
 
 }
 
-void printDig(int n, int mat[][n]){
+void printDig(int n, int mat[][50]){
     printf("the diagonal: \n");
     //go through the diagonol at index i, i
     for(int i = 0; i < n; i++){
@@ -40,7 +40,7 @@ int main(){
         return -1;
     //make sure it is smaller than 50
 
-    int matrix[n][n];
+    int matrix[50][50];
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
             fgets(buf, sizeof(buf), stdin);
